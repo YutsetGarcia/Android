@@ -1,0 +1,572 @@
+body{
+    background-color: #fff;
+    color: #46873b;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu{
+    height: 79px;
+    width: 100%;
+}
+
+nav{
+    background-color: white;
+    box-shadow: 0px .1px 10px 0px;
+    display: block;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+nav img{
+    float: left;
+    margin: 10px auto;
+    height: 28px;
+    padding-left: 10px;
+    width: 140px;
+}
+
+nav ol{
+    float: right;
+    padding-right: 20px;
+    width: 35%;
+}
+
+nav ol li{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+nav a{
+    color: #757575;
+}
+
+nav a:hover{
+    color: #6ab344;
+}
+
+.fld {
+    width:0px;
+    height:0px;
+    border-left: 5px solid transparent; /* izquierda flecha */
+    border-right: 5px solid transparent; /* derecha flecha */
+    border-top: 5px solid #757575; /* base flecha y color*/
+    float: right;
+    font-size:0px;
+    line-height:0px;
+    margin: 7px;
+}
+
+a{
+    color: #46873b;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #6ab344;
+}
+
+.uno{
+    background-image: url("https://www.android.com/static/img/home/header-slides/version-1600.jpg");
+    background-size: cover;
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.uno h2{
+    color: black;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 50%;
+}
+
+.uno p:nth-child(2){
+    color: black;
+}
+
+.uno p{
+    margin: 0px auto;
+    margin-top: 35px;
+    text-align: center;
+    width: 50%;
+}
+
+.dos{
+    color: black;
+    height: 249px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dos h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.dos p{
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 16px;
+    width: 39%;
+}
+
+.tres{
+    height: 433px;
+    padding-left: 140px; 
+    padding-bottom: 85px;
+}
+
+#rel{
+    float: left;
+    height: 443px;
+    padding-right: 10px;
+    width: 148px;
+}
+
+#rel div img{
+    height: 111px;
+    margin-left: 20px;
+    margin-top: 280px;
+    width: 118px;
+}
+
+#rel p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#cel{
+    float: left;
+    height: 443px;
+    padding-right: 10px;
+    width: 122px;
+}
+
+#cel div img{
+    height: 158px;
+    margin-left: 20px;
+    margin-top: 235px;
+    width: 82px;
+}
+
+#cel p{
+    margin-top: 19px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tab{
+    float: left;
+    height: 443px;
+    padding-right: 10px;
+    width: 132px;
+}
+
+#tab img{
+    height: 128px;
+    margin-left: 20px;
+    margin-top: 265px;
+    width: 92px;
+}
+
+#tab p{
+    margin-top: 19px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#tv{
+    float: left;
+    height: 443px;
+    padding-right: 70px;
+    width: 308px;
+}
+
+#tv img{
+    height: 166px;
+    margin-left: 20px;
+    margin-top: 230px;
+    width: 268px;
+}
+
+#tv p{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#car{
+    float: left;
+    height: 443px;
+    width: 399px;
+}
+
+#car div{
+    overflow: hidden;
+}
+
+#car img{
+    width: 315%;
+}
+
+
+#car p{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.cuatro{
+    background-image: url(https://www.android.com/static/img/banners/wear3-1024.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 419px;
+}
+
+.cinco{
+    background-color: #455a64;
+    color: white;
+    height: 192px;
+    padding-top: 20px;
+}
+
+.cinco h1{
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 2.6em;
+    font-weight: lighter;
+    width: 75%;
+}
+
+.cinco p{
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 64%;
+}
+
+.cinco p:nth-child(3){
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.cinco p a{
+    color: #64ffda;
+}
+
+.cinco p a:hover{
+    color: #00C6E0;
+}
+
+.seis{
+    height: 700px;
+}
+
+.seis div:nth-child(1){
+    height: 200px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.seis div h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    width: 50%;
+}
+
+.seis p{
+    color: black;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    width: 37%;
+}
+
+.seis div img{
+    height: 430px;
+    width: 100%;
+}
+
+.siete{
+    height: 733px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+}
+
+.siete div:nth-child(1){
+    height: 158px;
+}
+
+.siete h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 48px;
+    padding-top: 60px;
+}
+
+.siete div:nth-child(2){
+    height: 535px;
+}
+
+.siete img{
+    height: 169px;
+}
+
+#espacio{
+    width: 0px;
+    padding-right: 20px;
+    float: left;
+    height: 10px;
+}
+
+#lt{
+    box-shadow: 0 2px 3px 0;
+    height: 565px;
+    float: left;
+    width: 243px;
+}
+
+#lt div:nth-child(2){
+    color: black;
+    height: 224px;
+    padding: 20px;
+    width: 203px;
+}
+
+#lt h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#lt p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#lt p:nth-child(3){
+    margin-top: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#lt p a img{
+    height: 10px;
+    padding-left: 10px;
+    height: 10px;
+}
+
+#dt{
+    box-shadow: 0 2px 3px 0;
+    height: 565px;
+    float: left;
+    width: 243px;
+}
+
+#dt div:nth-child(2){
+    color: black;
+    height: 224px;
+    padding: 20px;
+    width: 203px;
+}
+
+#dt h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#dt p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+#dt p:nth-child(3){
+    margin-top: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#dt p:nth-child(3) img{
+    height: 10px;
+    padding-left: 10px;
+    height: 10px;
+}
+
+#bc{
+    box-shadow: 0 2px 3px 0;
+    height: 565px;
+    float: left;
+    width: 243px;
+}
+
+#bc div:nth-child(2){
+    color: black;
+    height: 224px;
+    padding: 20px;
+    width: 203px;
+}
+
+#bc h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#bc p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#bc p:nth-child(3){
+    margin-top: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#bc p a img{
+    height: 10px;
+    padding-left: 10px;
+    height: 10px;
+}
+
+#ac{
+    box-shadow: 0 2px 3px 0;
+    height: 565px;
+    float: left;
+    width: 243px;
+}
+
+#ac div:nth-child(2){
+    color: black;
+    height: 224px;
+    padding: 20px;
+    width: 203px;
+}
+
+#ac h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#ac p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#ac p:nth-child(3){
+    margin-top: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+#ac p a img{
+    height: 10px;
+    padding-left: 10px;
+    height: 10px;
+}
+
+footer{
+    background-color: #f5f5f5;
+    height: 280px;
+    padding-top: 1px;
+    width: 100%;
+}
+
+footer p:nth-child(1){
+    color: #757575;
+    text-align: right;
+    padding-right: 90px;
+    font-size: 14px;
+}
+
+.m1 {
+    width: 40%;
+    height: 40px;
+}
+
+.m1 li{
+    display: inline-block;
+    font-weight: bolder;
+    padding-right: 35px;
+}
+
+.m1 img{
+    height: 40px;
+    width: 40px;
+}
+
+footer p{
+    color: #757575;
+    font-size: 14px;
+    margin: 40px 0px 20px 38px;
+}
+
+.m2 {
+    background-color: #f1f1f1;
+    padding-top: 30pxx;
+    float: left;
+    height: 60px;
+    width: 97%;
+}
+
+.m2 li{
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.m2 li:nth-child(1){
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+}
+
+.m2 li:nth-child(6){
+    display: inline-block;
+    background-color: white;
+    float: right;
+    margin-right: 200px;
+}
+
+.m2 li:nth-child(6) a{
+    color: black;
+    padding-right: 70px;
+}
+
+.m2 img{
+    height: 35px;
+    width: 100px;
+}
+
+.m2 a{
+    color: #757575;
+}
